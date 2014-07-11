@@ -5,7 +5,7 @@
        AdalXamarinIos
     </id>
     <version>
-       0.0.0.1
+       0.0.0.2
     </version>
     <authors>
        Graeme Christie
@@ -14,7 +14,7 @@
         ADAL for Xamarin iOS
     </title>
     <description>
-      Xamarin Android Bindings for the Active Directory Authenication Library for iOS.
+      Xamarin iOS Bindings for the Active Directory Authenication Library.
     </description>
     <projectUrl>
       https://github.com/Readify/AdalXamarinIos
