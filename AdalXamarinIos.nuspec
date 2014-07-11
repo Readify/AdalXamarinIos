@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package>
+  <metadata>
+    <id>
+       AdalXamarinIos
+    </id>
+    <version>
+       0.0.0.1
+    </version>
+    <authors>
+       Graeme Christie
+    </authors>
+    <title>
+        ADAL for Xamarin iOS
+    </title>
+    <description>
+      Xamarin Android Bindings for the Active Directory Authenication Library for iOS.
+    </description>
+    <projectUrl>
+      https://github.com/Readify/AdalXamarinIos
+    </projectUrl>
+    <licenseUrl>
+      https://raw.githubusercontent.com/Readify/AdalXamarinIos/master/LICENSE.txt
+    </licenseUrl>
+    <tags>
+        Active Directory Authentication Library ADAL Directory Windows Azure AD AAD Identity iOS Xamarin
+    </tags>
+    <language>
+       en-US
+    </language>
+  </metadata>
+  <files>
+     <file src="AdalXamarinIos/bin/Release/AdalXamarinIos.dll" target="lib/Monotouch/AdalXamarinIos.dll" />
+  </files>
+</package>
