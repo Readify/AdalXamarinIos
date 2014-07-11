@@ -12,6 +12,7 @@ This solution includes latest dev build of the [Azure Active Directory Client fo
 
 The solution is maintained as a package in Nuget. The latest version of this client can be found [at nuget.org](https://www.nuget.org/packages/AdalXamarinIos/).
 
+_Note: The package is currently an alpha release so select "Show Preview Packages" in your package manager_
 ### License
 
 Licensed under the Apache License, Version 2.0 (the "License");
