@@ -330,6 +330,7 @@ namespace AdalXamarinIos
 	}
 
 	[BaseType (typeof (NSObject))]
+    [Protocol]
 	public partial interface ADPersistentTokenCacheStore : ADTokenCacheStoring {
 
 		[Export ("initWithLocation:")]
