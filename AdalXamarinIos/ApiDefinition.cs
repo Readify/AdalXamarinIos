@@ -59,6 +59,7 @@ namespace AdalXamarinIos
 
 	public interface IADTokenCacheStoring {}
 
+    [Protocol]
 	[BaseType (typeof (NSError))]
 	public partial interface ADAuthenticationError {
 
@@ -87,6 +88,7 @@ namespace AdalXamarinIos
 		ADAuthenticationError ErrorFromCancellation { get; }
 	}
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADAuthenticationResult {
 
@@ -106,6 +108,7 @@ namespace AdalXamarinIos
 		bool MultiResourceRefreshToken { get; }
 	}
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADTokenCacheStoreItem {
 
@@ -149,6 +152,7 @@ namespace AdalXamarinIos
 		bool IsSameUser (ADTokenCacheStoreItem other);
 	}
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADUserInformation {
 
@@ -198,6 +202,7 @@ namespace AdalXamarinIos
 		string NormalizeUserId (string userId);
 	}
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADTokenCacheStoreKey {
 
@@ -216,6 +221,7 @@ namespace AdalXamarinIos
 
 	public delegate void ADAuthenticationCallback(ADAuthenticationResult result);
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADAuthenticationContext {
 
@@ -279,6 +285,7 @@ namespace AdalXamarinIos
 
 	public delegate void LogCallback(ADAL_LOG_LEVEL logLevel, string message, string additionalInformation, int errorCode);
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADLogger {
 
@@ -312,6 +319,7 @@ namespace AdalXamarinIos
 		
 	public delegate void ADDiscoveryCallback(bool validated, ADAuthenticationError error);
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADInstanceDiscovery {
 
@@ -329,8 +337,8 @@ namespace AdalXamarinIos
 
 	}
 
-	[BaseType (typeof (NSObject))]
     [Protocol]
+	[BaseType (typeof (NSObject))]
 	public partial interface ADPersistentTokenCacheStore : ADTokenCacheStoring {
 
 		[Export ("initWithLocation:")]
@@ -350,6 +358,7 @@ namespace AdalXamarinIos
 
 	}
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADAuthenticationSettings {
 
@@ -377,6 +386,7 @@ namespace AdalXamarinIos
 
 	public delegate void ADParametersCompletion(ADAuthenticationParameters parameters, ADAuthenticationError error);
 
+    [Protocol]
 	[BaseType (typeof (NSObject))]
 	public partial interface ADAuthenticationParameters {
 
