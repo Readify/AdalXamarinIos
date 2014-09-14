@@ -44,8 +44,8 @@ namespace AdalXamarinIos
 		[Export ("removeItemWithKey:userId:")]
 		void RemoveItemWithKey (ADTokenCacheStoreKey key, string userId);
 
-		[Export ("removeAll")]
-		void RemoveAll ();
+		[Export ("removeAllWithError:")]
+        void RemoveAllWithError (out ADAuthenticationError error);
 
 		[Field ("ADAuthenticationErrorDomain", "__Internal")]
 		NSString ADAuthenticationErrorDomain { get; }

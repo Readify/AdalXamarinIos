@@ -6,7 +6,7 @@ Unlike the original example, this repository contains a full ready to go Xamarin
 
 ### Azure Active Directory Client for Ios
 
-This solution includes latest dev build of the [Azure Active Directory Client for iOS](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios), as of 10/7/2014.
+This solution includes version 1.1.0 of the [Azure Active Directory Client for iOS](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios).
 
 ### Nuget
 
